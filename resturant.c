@@ -73,9 +73,9 @@ int main() {
 
     printf("Please select your prefered option:\n");
     printf("1.Genrate Invoice\n");
-    printf("2.Show all Invoice\n");
-    printf("3.Search Invoice\n");
-    printf("4.Exit\n\n");
+ //  printf("2.Show all Invoice\n");
+ //  printf("3.Search Invoice\n");
+ //  printf("4.Exit\n\n");
 
 
     printf("Your Choice:");
@@ -129,7 +129,7 @@ int main() {
             }
             break;
 
-        case 2:
+       /* case 2:
             fp=fopen("resturant.txt","r");
             printf("\n   *****Yours Previous Invoices*****\n");
             while (fread(&order,sizeof(struct orders),1,fp))
@@ -143,12 +143,12 @@ int main() {
                 }
                 generateBillFooter(tot);       
             }
-            fclose(fp);
+            fclose(fp);*/
            // break;
             
 
         default:
-            printf("\nJoddd");
+            printf("Thank YOU!!");
             break;
         }
 
